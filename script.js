@@ -3,7 +3,7 @@ document.addEventListener('mousemove', (e) => {
     const x = (window.innerWidth / 2 - e.pageX) / 50;
     const y = (window.innerHeight / 2 - e.pageY) / 50;
     
-    bg.style.transform = `scale(1.1) translate(${x}px, ${y}px)`;
+    bg.style.transform = `translate(${x}px, ${y}px)`;
 });
 
 document.addEventListener('DOMContentLoaded', () => {

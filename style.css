@@ -18,11 +18,11 @@ body {
     width: 100%;
     height: 100%;
     background-image: url('bg.jpg');
-    background-size: cover;
+    background-size: contain;
+    background-color: #fff;
     background-position: center;
     background-repeat: no-repeat;
     z-index: 1;
-    /* Transformation for the parallax effect in script.js */
-    transform: scale(1.05);
+    /* Removed scale to ensure full visibility */
     transition: transform 0.1s ease-out;
 }
